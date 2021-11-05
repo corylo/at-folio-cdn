@@ -1,0 +1,22 @@
+{
+  "name": "at-folio-cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {  
+    "deploy": "firebase deploy --only hosting",        
+    "set": "firebase use at-folio-cdn",
+    "projects": "firebase projects:list",
+    "pd": "git push && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheVVaFFle/at-folio-cdn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheVVaFFle/at-folio-cdn/issues"
+  },
+  "homepage": "https://github.com/TheVVaFFle/at-folio-cdn#readme"
+}
